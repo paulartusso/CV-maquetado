@@ -1,0 +1,137 @@
+body{
+    background-color: #333;
+    padding: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #484848;
+}
+
+.cv-container{
+    max-width: 1200px;
+    background-color: whitesmoke;
+    padding-top: 2px;
+}
+
+.divs-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/**HEADER**/
+
+.header-div{
+    max-width: 1200px;
+    margin-top: 200px;
+    background-color: #b4c5d8;
+    height: 200px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-decoration-div{
+    max-width: 1200px;
+    height: 10px;
+    background-color: #b4c5d8;
+    z-index: 1;
+    margin-top: 1px;
+}
+
+.img{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/**DIV IZQUIERDO*/
+
+.half-grey-background-div{
+    padding: 45px;
+    background-color: #ebebeb;
+    width: 35%;
+}
+
+.title-container{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.h1{
+    color: #484848;
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    margin:0;
+}
+
+.title-second-style{
+    color: #7c8587;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 0.1em;
+}
+
+.first-information-container{
+    margin-top: 300px;
+    margin-left: 30px;
+    
+}
+
+.h2{
+    color: #7c8587;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    margin-top: 60px;
+}
+
+.decoration-div{
+    height: 8px;
+    width: 80px;
+    background-color: #7c8587;
+    margin-bottom: 35px;
+}
+
+/*contiene las dos columnas -iconos-info*/
+.columns{
+    display: flex;
+    flex-direction: row;
+}
+
+/*contiene iconos e info -cada columna, misma clase*/
+.icons-information-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+div i{
+    margin-top: 0px;
+    font-size: 27px;
+    color: #484848;
+}
+
+div p{
+    margin-left: 25px;
+    color: #484848;
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    cursor: pointer;
+}
+
+/*DIV DERECHO*/
+.half-white-background-div{
+    padding: 45px;
+}
+
