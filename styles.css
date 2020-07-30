@@ -99,20 +99,20 @@ body{
 }
 
 /*contiene iconos e info -cada columna, misma clase*/
-#icons-container span{
+#contact-info-container span{
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
 }
 
-#icons-container i{
+#contact-info-container i{
     margin-top: 0px;
     font-size: 27px;
     color: #484848;
 }
 
-#icons-container p{
+#contact-info-container p{
     margin-left: 25px;
     color: #484848;
 }
@@ -128,7 +128,29 @@ h4{
     margin-top: 0px;
 }
 /*DIV DERECHO*/
+
 .half-white-background-div{
     padding: 45px;
 }
 
+.aptitudes{
+    display: flex;
+    flex-direction: column;
+}
+.aptitudes span{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.aptitudes span i{
+    font-size: 30px;
+}
+
+.aptitudes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+}
