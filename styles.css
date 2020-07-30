@@ -6,7 +6,7 @@ body{
 }
 
 .cv-container{
-    max-width: 1200px;
+    max-width: 1100px;
     background-color: whitesmoke;
     padding-top: 2px;
 }
@@ -40,14 +40,14 @@ body{
 .img{
     margin-left: 70px;
     margin-top: 20px;
-    width: 270px;
-    height: 270px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     z-index: 1;
 }
 
 .title-container{
-    margin-left: 70px;
+    margin-left: 60px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -63,8 +63,7 @@ body{
 }
 
 .h1{
-    color: #484848;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 800;
     letter-spacing: 0.07em;
     margin:0;
@@ -85,11 +84,15 @@ body{
     margin-top: 60px;
 }
 
+.h2-plus{
+    margin-top: 30px;
+}
+
 .decoration-div{
     height: 8px;
     width: 80px;
     background-color: #7c8587;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 /*contiene las dos columnas -iconos-info*/
@@ -109,7 +112,6 @@ body{
 #contact-info-container i{
     margin-top: 0px;
     font-size: 27px;
-    color: #484848;
 }
 
 #contact-info-container p{
@@ -131,26 +133,35 @@ h4{
 
 .half-white-background-div{
     padding: 45px;
-}
-
-.aptitudes{
-    display: flex;
-    flex-direction: column;
-}
-.aptitudes span{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: baseline;
-}
-
-.aptitudes span i{
-    font-size: 30px;
+    width: 65%;
 }
 
 .aptitudes-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: left;
+    justify-content: left;
+    align-items: center;
 }
+
+.aptitudes{
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+}
+.aptitudes span{
+    display: flex;
+    align-items: center;
+}
+
+.aptitudes span i{
+    font-size: 29px;
+    margin-right: 10px;
+    margin-top: -25px;
+}
+
+.aptitudes span p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
