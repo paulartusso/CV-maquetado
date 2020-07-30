@@ -46,20 +46,20 @@ body{
     z-index: 1;
 }
 
-/**DIV IZQUIERDO*/
-
-.half-grey-background-div{
-    padding: 45px;
-    background-color: #ebebeb;
-    width: 35%;
-}
-
 .title-container{
     margin-left: 70px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
+}
+
+/**DIV IZQUIERDO*/
+
+.half-grey-background-div{
+    padding: 50px;
+    background-color: #ebebeb;
+    width: 35%;
 }
 
 .h1{
@@ -76,12 +76,6 @@ body{
     font-weight: 600;
     margin: 0;
     letter-spacing: 0.1em;
-}
-
-.first-information-container{
-    margin-top: 300px;
-    margin-left: 30px;
-    
 }
 
 .h2{
@@ -101,24 +95,24 @@ body{
 /*contiene las dos columnas -iconos-info*/
 .columns{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 /*contiene iconos e info -cada columna, misma clase*/
-.icons-information-container{
+#icons-container span{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: left;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
 }
 
-div i{
+#icons-container i{
     margin-top: 0px;
     font-size: 27px;
     color: #484848;
 }
 
-div p{
+#icons-container p{
     margin-left: 25px;
     color: #484848;
 }
@@ -130,6 +124,9 @@ div p{
     cursor: pointer;
 }
 
+h4{
+    margin-top: 0px;
+}
 /*DIV DERECHO*/
 .half-white-background-div{
     padding: 45px;
