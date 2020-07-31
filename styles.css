@@ -3,6 +3,7 @@
     body{
     font-family: 'Montserrat', sans-serif;
     color: #484848;
+    font-size: 18px;
     }
 }
 @media (min-width: 800px){
@@ -11,10 +12,11 @@
         padding: 35px;
         font-family: 'Montserrat', sans-serif;
         color: #484848;
+        font-size: 20px;
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 300px){
     .cv-container{
         background-color: whitesmoke;
         padding-top: 125px;
@@ -29,7 +31,7 @@
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 300px){
     .divs-container{
         display: flex;
         flex-direction: column;   
@@ -75,7 +77,7 @@
     }
 }
 
-@media (min-width: 400px) and (max-width: 550px){
+@media (min-width: 300px) and (max-width: 550px){
     .img{
         margin-left: 5px;
         margin-top: -100px;
@@ -108,7 +110,7 @@
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 300px){
     .title-container{
         display: flex;
         flex-direction: column;
@@ -129,7 +131,7 @@
 
 /*H1 - NAME*/
 
-@media (min-width: 400px) and (max-width: 500px){
+@media (min-width: 300px) and (max-width: 500px){
     .h1{
         font-size: 30px;
         font-weight: 600;
@@ -152,12 +154,13 @@
         font-size: 60px;
         font-weight: 800;
         letter-spacing: 0.07em;
+        line-height: 1;
         margin:0px;
     }
 }
 
 /*APPL*/
-@media (min-width: 400px){
+@media (min-width: 300px){
     .title-second-style{
         color: #7c8587;
         font-size: 20px;
@@ -190,7 +193,7 @@
 
 /**DIV IZQUIERDO*/
 
-@media (min-width: 400px) and (max-width: 899px){
+@media (min-width: 300px) and (max-width: 899px){
     .half-grey-background-div{
         padding: 10px;
         padding-left: 45px;
@@ -200,7 +203,7 @@
 
 @media (min-width: 900px){
     .half-grey-background-div{
-        padding: 50px;
+        padding: 55px;
         background-color: #ebebeb;
         width: 35%;
     }
@@ -214,7 +217,7 @@
 }
 
 .h2-plus{
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .decoration-div{
@@ -232,7 +235,7 @@
 
 /*contiene iconos e info -cada columna, misma clase*/
 
-@media (min-width: 400px) and (max-width: 699px){
+@media (min-width: 300px) and (max-width: 699px){
     #contact-info-container span{
         display: flex;
         flex-direction: row;
@@ -266,8 +269,16 @@
     cursor: pointer;
 }
 
+h3{
+    margin-top: 10px; 
+    font-size: 24px;
+    font-weight: 800;   
+}
+
 h4{
     margin-top: 0px;
+    font-size: 20px;
+    font-weight: 800; 
 }
 /*DIV DERECHO*/
 
@@ -324,3 +335,14 @@ h4{
     margin-top: 0px;
 }
 
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.experience-container span{
+    margin-top: 15px;
+    line-height: 1;
+}
